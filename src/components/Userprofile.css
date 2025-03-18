@@ -1,0 +1,26 @@
+/* src/styles.css or within your component's CSS (if using inline styles) */
+
+.user-profile {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .profile-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .profile-image {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 2px solid #ddd;
+  }
+  
+  input[type='file'] {
+    display: block;
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  

@@ -1,0 +1,60 @@
+.home-container {
+    text-align: center;
+    margin-top: 100px;
+  }
+  
+  .home-container h1 {
+    color: #ff007f;
+    font-size: 2.5rem;
+  }
+  
+  .home-container p {
+    font-size: 1.2rem;
+  }
+  .about-us {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 30px;
+    text-align: center;
+  }
+  
+  .about-us h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .about-us p {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.6;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  .social-media {
+    display: flex;
+    justify-content: center; /* Center icons */
+    margin-top: 30px;
+    padding: 20px;
+  }
+  
+  .social-media a {
+    margin: 0 15px; /* Space between the icons */
+    color: #333; /* Default color for icons */
+    font-size: 2rem; /* Icon size */
+    text-decoration: none;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .social-media a:hover {
+    transform: scale(1.2); /* Slight scale effect on hover */
+  }
+  
+  .social-icon {
+    color: hsl(0, 60%, 98%); /* Default color for icons */
+  }
+  
+  .social-media a:hover .social-icon {
+    color: #ff007f; }/* Change color to pink on hover
+  

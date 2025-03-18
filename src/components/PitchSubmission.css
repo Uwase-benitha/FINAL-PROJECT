@@ -1,0 +1,35 @@
+.pitch-submission {
+    padding: 30px;
+    background-color: #222;
+    color: white;
+    width: 60%;
+    margin: 50px auto;
+    border-radius: 10px;
+  }
+  
+  textarea {
+    width: 100%;
+    height: 150px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  input[type="file"] {
+    margin-top: 15px;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
+  button {
+    margin-top: 15px;
+    background-color: #ff007f;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #e60073;
+  }
+  

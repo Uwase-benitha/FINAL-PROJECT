@@ -1,0 +1,35 @@
+.project-list {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .projects-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .project-card {
+    background-color: #222;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0px 4px 10px rgba(255, 0, 127, 0.5);
+  }
+  
+  .project-card button {
+    background-color: #ff007f;
+    color: white;
+    padding: 10px;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .project-card button:hover {
+    background-color: #e60073;
+  }
+  
